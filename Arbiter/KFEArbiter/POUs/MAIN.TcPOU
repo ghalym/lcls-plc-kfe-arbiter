@@ -60,7 +60,9 @@ P_AT1K0_SL1K0();
 bM1K1_OUT_Override := PMPS_GVL.stCurrentBeamParameters.aVetoDevices[PMPS.K_Stopper.MR1K1_OUT];
 
 fbLogHandler();
-A_SystemTime();]]></ST>
+A_SystemTime();
+
+g_FastFaultOutput2.EvaluateOutput(bAutoReset:=TRUE);]]></ST>
     </Implementation>
     <Action Name="A_SystemTime" Id="{932b887a-aeb4-43ef-9b71-03a84b8275c9}">
       <Implementation>
