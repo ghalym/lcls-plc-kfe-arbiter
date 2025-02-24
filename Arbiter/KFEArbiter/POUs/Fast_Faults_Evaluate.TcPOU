@@ -85,7 +85,6 @@ FFO_TXI_OPTICS(
                     AND PMPS_GVL.stCurrentBeamParameters.aVetoDevices[PMPS.K_Stopper.MR2K3_IN] AND NOT PMPS_GVL.stCurrentBeamParameters.aVetoDevices[PMPS.K_Stopper.MR2K3_OUT])  ,
     i_xAutoReset := TRUE);
 
-
 g_FastFaultOutput2.EvaluateOutput(bAutoReset:=TRUE);]]></ST>
     </Implementation>
   </POU>
